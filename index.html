@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Aplicación Calculadora</title>
+</head>
+<body class="mx-20 mt-6">
+    <h1 class="text-4xl font-bold">Aplicación Calculadora</h1>
+    <div id="alerta" class="text-red-500 mt-2"></div>
+    <form id="form" class="mt-4 mb-4">
+        <label for="">Operando A</label>
+        <br>
+        <input id="numero1" type="number" class="w-full border p-2 mb-10">
+        <br>
+        <label for="">Operando B</label>
+        <br>
+        <input id="numero2" type="number" class="w-full border p-2">
+    </form>
+
+    <button class="w-20 h-12 bg-blue-500 rounded text-white" onclick="sumar()">
+        Sumar
+    </button>
+
+    <div id="resultado" class="mt-4"></div>
+    
+    <script src="/app.js"></script>
+    
+    
+</body>
+</html>
